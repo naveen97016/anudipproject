@@ -13,14 +13,6 @@ public class AssignmentOperator {
 	        System.out.println("Value of c after multiplication: " + (a *= b));
 	        System.out.println("Value of c after division: " + (a /= b));
 	        System.out.println("Value of c after modulus: " + (a %= b));
-
-	        int x = 5;
-	        System.out.println("Value of x after bitwise AND: " + (x &= 3));
-	        System.out.println("Value of x after bitwise OR: " + (x |= 3));
-	        System.out.println("Value of x after bitwise XOR: " + (x ^= 3));
-	        System.out.println("Value of x after left shift: " + (x <<= 1));
-	        System.out.println("Value of x after right shift: " + (x >>= 1));
-	        System.out.println("Value of x after zero fill right shift: " + (x >>>= 1));
 	    
 	}
 
